@@ -1,0 +1,121 @@
+/* GENERAL CSS STYLING STARTS */
+
+body{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    background: gray;
+}
+main{
+    background: gray;
+    margin-bottom: 50px;
+}
+
+
+/* GENERAL CSS STYLING ENDS */
+
+/* HEADER CSS STYLING STARTS */
+.nav_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
+.navbar{
+    width: 100%;
+    height: 137px;
+    background-color: white;
+}
+.nav_img img{
+    transition: all 0.7s;
+}
+.nav_img img:hover{
+    scale: 1.1;
+}
+.nav_table{
+    margin-left: 70px;
+}
+.navs a{
+    text-decoration: none;
+    color: green;
+    font-size: larger
+}
+.navs:hover{
+    scale: 1.1;
+    transition: all 0.3s;
+}
+.contact_nav{
+    background-color: rgb(52, 52, 52);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.contact_nav tr td address a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    text-align: center;
+    transition: all 0.3s;
+}
+.contact_nav td address a:hover{
+    color: green;
+}
+
+/* HEADER CSS STYLING ENDS */
+
+/* FOOTER CSS STYLING STARTS */
+
+footer{
+    align-items: center;
+    background-color: rgb(52, 52, 52);
+    color: green;
+    text-align: center;
+}
+.footer_table{
+    padding-top: 50px;
+}
+.footer_table td{
+    transition: all 0.4s;
+}
+.footer_table td:hover{
+    scale: 1.1;
+}
+.footer_table tr td a{
+    text-decoration: none;
+    color: green;
+}
+footer address{
+    margin-bottom: 30px;
+}
+.socials i{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right:  15px;
+    margin-bottom: 10px;
+    transition: all .3s;
+
+}
+.socials i:hover{
+    scale: 1.08;
+    color: green;
+}
+
+
+/* FOOTER CSS STYLING ENDS */
+
+/* RESPONSIVE CSS STARTS */
+
+@media (max-width: 800px) {
+    
+}
+
+/* RESPONSIVE CSS ENDS */

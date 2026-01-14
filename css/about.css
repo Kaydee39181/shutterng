@@ -1,0 +1,61 @@
+.story{
+    width: 75%;
+    margin: 5% 12.5%;
+}
+.story h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+    text-decoration: underline solid 3px green;
+}
+.story h1 span{
+    color: green;    
+}
+.story p{
+    font-size: 22.5px;
+}
+.highlight{
+    color: green;
+}
+.flex_box{
+    width: 100%;
+    height: 500px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+.info{
+    width: 20%;
+    height: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    transition: all .4s;
+    scroll-behavior: smooth;
+}
+.info:hover{
+    scale: 1.08;
+    box-shadow: 6px 10px 10px rgb(61, 61, 61);
+}
+.info h2{
+    text-align: center;
+    color: green;
+}
+.info div span{
+    font-size: 20px;
+    margin-right: 8px;
+}
+.goals{
+    margin-left: 30px;
+}
+
+@media(max-width: 900px){
+    .goals{
+        margin-left: 40px;
+    }
+}
+

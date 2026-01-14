@@ -1,0 +1,150 @@
+.contactForm{
+    margin: 70px 0 100px 0;
+}
+fieldset{
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 20%;
+    padding: 20px 0 50px 0;
+}
+h1{
+    font-size: 40px;
+    margin-left: 60px;
+}
+.contact{
+    text-decoration: underline green;
+}
+label h3{
+    color: green;
+    font-size: 25.5px;
+    margin-left: 60px;
+}
+input{
+    height: 40px;
+    width: 400px;
+    padding-left: 30px;
+    font-size: larger;
+    border-radius: 8px;
+    margin-left: 60px;
+    border: 2px solid green;
+    transition: all .4s;
+}
+input:focus{
+    width: 450px;
+    caret-color: green;
+}
+select, option{
+    height: 40px;
+    width: 430px;
+    font-size: large;
+    padding-left: 30px;
+    border-radius: 8px;
+    margin-left: 60px;
+    border: 2px solid green;
+}
+.textbox:focus{
+    height: 120px;
+    margin-left: 60px;
+}
+.submit input{
+    width: 220px;
+    height: 55px;
+    background-color: green;
+    color: white;
+    padding-left: 8px;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 50px;
+    transition: all .4s;
+}
+.submit input:hover{
+    scale: 1.07;
+    color: green;
+    background: white;
+    box-shadow: 3px 6px 6px rgb(52, 52, 52);
+}
+.map_section{
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-bottom: 70px;
+}
+.map{
+    width: 96%;
+    height: 750px;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+.contact_socials p{
+    font: bolder;
+    font-size: 35px;
+    text-align: center;
+}
+.contact_links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact_links a, .contact_links i{
+    font-size: 28px;
+    transition: all .4s;
+}
+.contact_links a{
+    text-decoration: none;
+    color: black;
+}
+.contact_links .list{
+    width: 15%;
+    height: 65px;
+    border: 2px solid black;
+    gap: 40px;
+    display: flex;  
+    background-color:white;  
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all .4s;
+}
+.contact_links a:hover, .contact_links i:hover{
+    color: green;
+}
+.contact_links .list:hover{
+    scale: 1.08;
+    box-shadow: 5px 10px 10px rgb(52, 52, 52);
+}
+.sect h1, .sect p{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.sect h1{
+    color: green;
+}
+.sect p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+.sect p a{
+    text-decoration: none;
+    color: green;
+    font: bolder;
+}

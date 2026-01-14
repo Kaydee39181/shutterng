@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+    <head>
+        <title>: ShutterNG Camera Store :</title>
+        <link rel="icon" href="images/logos/logo9.jpg" type="image/png">
+        <script src="https://kit.fontawesome.com//484245bc4a.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/login.css">
+        <script src="scripts/signup.js" type="text/javascript"></script>
+        <!-- <script src="scripts/validate_signup.js" type="text/javascript"></script> -->
+    </head>
+
+    <body>
+        
+        <header class="header">
+            <table border="0" width="100%" class="contact_nav"  align="center">
+                <tr align="center">
+                    <td width="30%"></td>
+                    <td><address><a href="https://maps.app.goo.gl/HNXGQV7PE134hzGN6" target="_blank"><i class="fa-solid fa-location-dot"></i> Address</a></address></td>
+                    <td><address><a href="mailto:emuekharekingdavid@gmail.com"><i class="fa-solid fa-envelope"></i> Mail</a></address></td>
+                    <td><address><a href="tel:+2349160196189"><i class="fa-solid fa-phone"></i> Call</a></address></td>
+                    <td width="30%"></td>
+                </tr>
+            </table>
+            <table class="navbar" border="0" width="100%" height="137px">
+                <tr>
+                    <td align="center" class="nav_img"><a href="index.html"><img loading="lazy"  src="images/logos/mainlogo.png" alt="Logo" width="320px" height="120px"></a></td>
+
+                        <td>
+                            <table border="0" align="right" width="300px">
+                                <td class="navs"><b><a href="login.html">LOGIN</a></b></td>
+                                <td class="navs"><b><a href="signup.html">SIGNUP</a></b></td>
+                            </table>
+                        </td>
+                </tr>
+            </table>
+        </header>
+
+        <main>
+            
+            <fieldset>
+                <legend ><h1><span class="signup">SIGNUP</span><span class="page"> PAGE</span></h1></legend>
+
+                        <form id="signupForm" method="post">
+                            <label for="firstname"><h3>First Name</h3></label>
+                            <input type="text" name="firstname" id="firstname" required placeholder="John">
+                            <br>
+                            
+                            <label for="lastname"><h3>Last Name</h3></label>
+                            <input type="text" name="lastname" id="lastname" required placeholder="Doe">
+                            <br>
+
+                            <label for="phone"><h3>Phone Number</h3></label>
+                            <input type="tel" name="phone" id="phone" placeholder="+234-XXX-XXXX-XXX">
+                            <br>
+
+                            <label for="email"><h3>Email</h3></label>
+                            <input type="email" name="email" id="email" required placeholder="johndoe@gmail.com">
+                            <br>
+
+                            <label for="password"><h3>Password</h3></label>
+                            <input type="password" name="password" id="password" required placeholder="**********">
+                            <br>
+
+                            <label for="confirmpassword"><h3>Confirm Password</h3></label>
+                            <input type="password" name="confirmpassword" id="confirmpassword" required placeholder="**********">
+                            <br><br>
+
+                            <ul class="rules">
+                                <div class="requirements">Password Requirements</div>
+                                <li id="lower" class="invalid"> At least one lowercase letter</li>
+                                <li id="upper" class="invalid"> At least one uppercase letter</li>
+                                <li id="number" class="invalid"> At least one number</li>
+                                <li id="special" class="invalid"> At least one special character</li>
+                                <li id="length" class="invalid"> At least 8 characters</li>
+                            </ul>
+
+                            <br>
+
+                            <div> Already have login details? Login <a href="login.html">here</a></div>
+
+                        
+                            <div id="message"></div>
+                            <button type="submit" class="register" id="register">REGISTER</button>
+
+                            <br><br>
+                        </form>
+                </fieldset>
+            
+        </main>
+
+        <footer>
+            <table class="footer_table" border="0" width="60%" align="center">
+                <tr>
+                    <td><a href="signup.html">SIGNUP</a></td>
+                    <td><a href="login.html">LOGIN</a></td>
+                </tr>
+            </table>
+
+            <br><br>
+            <address>ShutterNG, Inc. Copyright &copy; 2025. All Rights Reserved</address>
+            <div class="socials">
+                <a href="https://www.instagram.com/shutterng/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/shutterng/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/shutterng" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.tiktok.com/@shutterng" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/@shutterng" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>

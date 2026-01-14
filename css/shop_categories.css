@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-size: 45px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    color: green;
+}
+h1 span{
+    color: black;
+    text-decoration: underline green;
+}
+.category{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.category a{
+    text-decoration: none;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    padding: 30px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    background-color:rgb(223, 223, 223);
+    transition: all .5s;
+}
+.image{
+    width: 330px;
+    height: 330px; 
+    overflow: hidden; 
+    border-radius: 15px; 
+    transition: all .4s;
+}
+.products h2{
+    font-size: 35px;
+    color: green;
+    text-transform: uppercase;
+}
+.products span{
+    font-size: 33px;
+    margin-bottom: 25px;
+    color: black;
+}
+.products button{
+    padding: 15px 30px;
+    color: white;
+    background-color: green;
+    font-size: 27px;
+    border: 2px solid green;
+    border-radius: 12px;
+    transition: all .4s;
+}
+.products:hover{
+    scale: 1.05;
+    box-shadow: 10px 20px 20px rgb(61, 61, 61);
+    h2{
+        color: black;
+    }
+    span{
+        color: green;
+    }
+}
+.image:hover{
+    scale: 1.07;
+}
+button:hover{
+    scale: 1.05;
+    color: green;
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: 4px 8px 8px rgb(61, 61, 61);
+}

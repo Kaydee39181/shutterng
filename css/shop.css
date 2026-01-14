@@ -1,0 +1,91 @@
+/* SHOP PAGE CSS STYLING STARTS */
+
+main{
+    font-size: 25.5px;
+    font-family: sans-serif;
+    /* padding: 25.5px; */
+    text-align: center;
+}
+.page_title{
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-size: 45px;
+}
+.page_title .camera{
+    text-decoration: underline green;
+}
+.page_title .gallery{
+    color: green;
+}
+.camera_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.camera_info{
+    background-color:rgb(223, 223, 223);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    transition: all 0.7s;
+}
+.camera_info:hover{
+    box-shadow: 8px 20px 20px black;
+    scale: 1.05;
+}
+.camera_info a {
+    text-decoration: none;
+}
+.camera_info a img{
+    width: 240px;
+    height: 240px;
+    border-radius: 12px;
+    transition: all 0.5s;
+}
+.camera_info a img:hover{
+    scale: 1.12;
+    cursor: pointer;
+}
+.camera_info a p{
+    color: black;
+}
+.camera_info a h3{
+    color: green;
+    font-size: 28px;
+}
+/*p{
+    color: red;
+} */
+.camera_info a button{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 12px 26px;
+    align-self: center;
+    border: 2px solid green;
+    border-radius: 12px;
+    font-size: 23px;
+    transition: all 0.3s;
+}
+.camera_info button:hover{
+    scale: 1.1;
+    color: green;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* SHOP PAGE CSS STYLING ENDS */
+
+/* RESPONSIVE CSS STARTS */
+
+@media (max-width: 800px) {
+   
+}
+/* RESPONSIVE CSS ENDS */
+

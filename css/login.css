@@ -1,0 +1,101 @@
+/* LOGIN AND SIGNUP CSS STARTS */
+
+fieldset{
+    align-items: center;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    border-radius: 5px;
+    transition: all 0.4s;
+    margin-top: 110px;
+    margin-bottom: 135px;
+}
+fieldset:hover{
+    box-shadow: 15px 30px 30px rgb(52, 52, 52);
+}
+fieldset:hover, form:hover{
+    scale: 1.01;
+    transition: all 0.4s;
+}
+h1{
+    margin-left: 40px;
+}
+h1 .signup{
+    text-decoration: underline green;
+}
+h1 .page{
+    color: green;
+}
+label, div a{
+    color: green;
+}
+div a{
+    text-decoration: none;
+}
+label h3, input, div, .submit input{
+    margin-left: 40px;
+    
+}
+input{
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: green;
+    padding-left: 20px;
+    caret-color: green;
+    font-size: large;
+    transition: all .4s;
+}
+input:focus{
+    width: 400px;
+}
+button#register, button#login{
+    text-decoration: none;
+    padding: 14px 28px;
+    background-color: green;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 8px;
+    border-color: green;
+    transition: all .4s;
+}
+button#register:hover, button#login:hover {
+    scale: 1.07;
+    color: green;
+    background: white;
+    box-shadow: 3px 6px 6px rgb(52, 52, 52);
+}
+button#register:focus , button#login:focus {
+    width: 180px;
+}
+.rules {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+div.requirements{
+    font-size: 28px;
+    margin: 15px 0px;
+    text-decoration: underline 3px solid green;
+}
+div.message{
+    color: red;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+/* default: unmet rules are red */
+.rules li {
+  color: #c0392b; /* red */
+  transition: color 180ms ease, font-weight 180ms ease;
+}
+
+/* satisfied rule: green + bolder */
+.rules li.valid {
+  color: #27ae60; /* green */
+  font-weight: 600;
+}
+
+/* LOGIN AND SIGNUP CSS ENDS */

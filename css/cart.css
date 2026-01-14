@@ -1,0 +1,117 @@
+main{
+    font-size: 26px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+.cart_page h2{
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-size: 45px;
+    margin-bottom: 100px;
+    text-decoration: underline solid green;
+}
+.cart_table{
+    width: 85%;
+    height: auto;
+    justify-content: center;
+}
+.cart_table td, .cart_table th{
+    height: 220px;
+}
+.tab1#first{
+    border-top-left-radius: 12px;
+}
+.tab1#fourth{
+    border-top-right-radius: 12px;
+}
+.tab4#first{
+    border-bottom-left-radius: 12px;
+}
+.tab4#fourth{
+    border-bottom-right-radius: 12px;
+}
+.tab1{
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    background-color: rgb(197, 197, 197);
+    box-shadow: 4px 8px 8px rgb(197, 197, 197);
+}
+.tab2{
+    border-bottom: 3px solid green;
+    border-right: 3px solid green;
+    background-color: rgb(80, 179, 80);
+    box-shadow: 4px 8px 8px rgb(80, 179, 80);
+}
+.tab3{
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    background-color: rgb(197, 197, 197);
+    box-shadow: 4px 8px 8px rgb(197, 197, 197);
+}
+.tab4{
+    border-right: 3px solid green;
+    background-color: rgb(80, 179, 80);
+    box-shadow: 4px 8px 8px rgb(80, 179, 80);
+}
+#first{
+    width: 30%;
+}
+#second{
+    width: 35%;
+}
+#third{
+    width: 15%;
+}
+#fourth{
+    width: 20%;
+    border-right: 0px;
+}
+.cart_page a button{
+    margin-top: 100px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 12px 26px;
+    align-self: center;
+    border: 2px solid green;
+    border-radius: 12px;
+    font-size: 23px;
+    transition: all 0.4s;
+}
+.cart_page a button:hover{
+    scale: 1.1;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
+.qty-btn{
+    padding: 10px 20px;
+    margin: 30px;
+    font-size: 35px;
+    border-radius: 8px;
+    transition: all .4s;
+    background-color: #f5f5f5;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+.qty-btn:hover{
+    scale:1.07;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.cart-total-row{
+    background-color: rgb(80, 179, 80);
+    border-top: 3px solid green;
+    font-weight: 700;
+    font-size: 18px;
+    height: 60px;
+}
+.cart-total-row td{
+    height: 60px;
+    vertical-align: middle;
+    color: white;
+}
